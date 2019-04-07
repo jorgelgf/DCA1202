@@ -1,0 +1,35 @@
+//16)
+
+#include <stdlib.h>
+#include <stdio.h>
+int compare (const void * a, const void * b)
+{
+  return ( *(int*)a - *(int*)b );
+}
+int main(void)
+{
+    int n;
+    printf("Digite a quantidade de valores: \n");
+    scanf("%d",&n);
+    //declaracao do ponteiro
+    float *valores;
+    //inclusao da quantidade de bytes
+      valores = (float *) malloc(n * sizeof(float));
+      for (int i =0; i<n; i++){
+          printf("Digite os valores: \n");
+          scanf("%f",&valores[i]);
+      }
+     //ordenacao dos elementos
+     void (*ptr_qsrot)(void *valores, size_t n, size_t size, int(*compar)(const void *, const void *));
+     ptr_qsrot = qsort;
+     ptr_qsrot(valores, n, sizeof(float), compare);
+      //Resultado
+     printf("REsultado ordenado: \n");
+     for (int i =0; i<n; i++)
+     {
+         printf(" %f",valores[i]);
+     }
+      printf("\n");
+//liberando espaco
+free(valores);
+}
