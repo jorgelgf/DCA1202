@@ -1,0 +1,30 @@
+//13)
+
+//Ponteiro de uma função é uma variável, um apontador, 
+//que nela contém o endereço de memória de uma função instruída no algoritmo.
+
+//Código exemplo:
+
+#include <stdio.h>
+#include <stdlib.h>
+	int compara(int a, int b) {
+       	return(a - b);
+    	}
+int main(void)
+{
+	//programa pra subtrair dois valores, ponteiro de funcao	
+	//declaracao ponteiro pra funcao com duas variaveis tipo inteiro
+    	int (*ponteiro)(int,int);
+
+ int s,t;
+ int resposta;
+ printf("Programa A- B\n");
+ printf("Primeiro valor A\nSegundo valor B\n");
+ scanf("%d %d",&s,&t);
+
+    //armazenando endereco da funcao
+    ponteiro = compara;
+    resposta = ponteiro(s,t);
+    //resultado
+    printf("Subtracao de dois elementos: %d\n",resposta);
+}

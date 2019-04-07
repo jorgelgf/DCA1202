@@ -1,0 +1,4 @@
+9)
+
+O primeiro algorítmo cria um vetor com 3 elementos e imprime os elementos na mesma ordem que foram inseridos.
+O segundo exibe o valor do vetor em hexadecimal. **

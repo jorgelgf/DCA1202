@@ -1,0 +1,8 @@
+6)
+
+primeiro mostra o indice do contador. 
+Após mostra o valor associado ao primeiro indice do vetor. 
+Depois mostra o valor associado a posição do vetor com 1 dígito após o decimal.  
+A outra instrução mostra o valor do vetor em relação a o incremento da posição inicial do ponteiro f. 
+Após mostra o endereço associado a posição em hexadecimal do vetor. 
+Por fim, mostra o endereço em hexadecimal associado ao incremento da posição do ponteiro f.

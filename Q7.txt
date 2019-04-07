@@ -1,0 +1,4 @@
+7)
+
+A expressão:*(pulo + 2), referencia o valor da tereceira posição do vetor.
+A expressão:pulo + 2, referencia o valor do endereço do tereceiro elemento do vetor.
