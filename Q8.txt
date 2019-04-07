@@ -1,6 +1,0 @@
-8)
-
-Primeira expressão é válida, p recebe o valor da posição 1 do vetor (elemento 2).
-Segunda expressão há um erro de sintaxe no incremento do ponteiro.
-Terceira expressão há também erro de sintaxe no incremento.
-Quarta expressão é válida, x recebe o valor do ponteiro (posição 0) +1.
