@@ -1,8 +1,0 @@
-3)
-
-R: pela ordem temos: 
-Endereço que p associou da variável i em exadecimal;
-Valor associado ao ponteiro mais 2 (resultado 7);
-Aponta o valor direto (resultado 5);
-3 vezes o valor que aponta p (resultado 15);
-O valor que aponta p (associado a variável i) mais 4 (resultado 9).
