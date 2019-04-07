@@ -1,0 +1,6 @@
+1)
+
+R: Ponteiros, basicamente, são variávies que guardam o endereço de memória de outras variáveis. 
+Esses apontadores são muito utilizado na engenharia para otimização de processos em aplicações 
+computacionais (softwares), tendo a finalidade de melhorar a segurança e qualidade dos dados e 
+podendo obter uma melhor performance nas aplicações.

@@ -1,0 +1,14 @@
+2)
+
+p == &i ;
+R: (condição verdadeira).
+
+**&p;
+R: O endereço de um ponteiro de um ponteiro que contém valor 3.
+
+*p - *q
+R: está acessando o valor do endereço de memória p (3) menos o valor do endereço q(5), (resultado -2).
+
+3 - *p/(*q) + 7;
+R: valor 3 menos o ponteiro associado ao endereço p(valor 3) divido pelo ponteiro que aponta pro endereço q(valor 5) mais 7, (resultado 9,4).
+
